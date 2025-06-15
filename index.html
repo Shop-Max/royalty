@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Royalty👑Taxi - Transporte VIP de Lujo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <div class="logo">Royalty👑Taxi</div>
+            <h1>Transporte VIP de Lujo</h1>
+            <p class="tagline">Experimenta el viaje más exclusivo y confortable con nuestro servicio premium de transporte ejecutivo</p>
+        </div>
+    </header>
+    
+    <!-- Servicios -->
+    <section class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestros Servicios Exclusivos</h2>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Servicio 1 -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon">🏖️</div>
+                            <h3>Playas VIP</h3>
+                        </div>
+                        <div class="service-card-back">
+                            <h3>Playas y Piscinas VIP</h3>
+                            <p>Transporte exclusivo a las playas y resorts más lujosos del país con comodidades premium.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Servicio 2 -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon">🍹</div>
+                            <h3>Restaurantes</h3>
+                        </div>
+                        <div class="service-card-back">
+                            <h3>Gastronomía Selecta</h3>
+                            <p>Llegue con estilo a los mejores restaurantes y bares de la ciudad en nuestros vehículos de lujo.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Servicio 3 -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon">🏥</div>
+                            <h3>Hospitales</h3>
+                        </div>
+                        <div class="service-card-back">
+                            <h3>Centros Médicos</h3>
+                            <p>Transporte seguro y confortable a hospitales y clínicas con asistencia especializada.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Servicio 4 -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon">🛫</div>
+                            <h3>Aeropuertos</h3>
+                        </div>
+                        <div class="service-card-back">
+                            <h3>Traslados Aeroportuarios</h3>
+                            <p>Servicio puerta a puerta con asistencia para equipaje y seguimiento de vuelos.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Servicio 5 -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon">🚎</div>
+                            <h3>Provincias</h3>
+                        </div>
+                        <div class="service-card-back">
+                            <h3>Viajes Interprovinciales</h3>
+                            <p>Viajes de larga distancia con máxima comodidad y paradas programadas según su conveniencia.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Servicio 6 -->
+                <div class="service-card">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <div class="service-icon">🚌</div>
+                            <h3>Familiares</h3>
+                        </div>
+                        <div class="service-card-back">
+                            <h3>Eventos Familiares</h3>
+                            <p>Transporte para grupos familiares con espacio para equipaje y necesidades especiales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Galería en Carrusel -->
+    <section class="gallery-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Nuestra Flota VIP</h2>
+            </div>
+            
+            <div class="carousel">
+                <div class="carousel-inner" id="carouselInner">
+                    <!-- Las imágenes se agregarán dinámicamente con JavaScript -->
+                </div>
+                
+                <button class="carousel-control prev" id="prevBtn"></button>
+                <button class="carousel-control next" id="nextBtn"></button>
+                
+                <div class="carousel-indicators" id="indicators">
+                    <!-- Los indicadores se agregarán dinámicamente con JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Formulario -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Solicita tu Transporte VIP</h2>
+            </div>
+            
+            <div class="booking-form">
+                <form id="taxiForm">
+                    <div class="form-group">
+                        <label for="name">Nombre completo</label>
+                        <input type="text" id="name" required placeholder="Ingresa tu nombre">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" required placeholder="Ingresa tu número de teléfono">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="pickup">Lugar de recogida</label>
+                        <input type="text" id="pickup" required placeholder="Dirección o punto de referencia">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="destination">Destino</label>
+                        <input type="text" id="destination" required placeholder="Dirección de destino">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="datetime">Fecha y hora</label>
+                        <input type="datetime-local" id="datetime" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="service">Tipo de servicio</label>
+                        <select id="service" required>
+                            <option value="">Selecciona un servicio</option>
+                            <option value="city">Transporte urbano</option>
+                            <option value="airport">Aeropuerto</option>
+                            <option value="province">Viaje a provincia</option>
+                            <option value="family">Viaje familiar</option>
+                            <option value="vip">Evento VIP</option>
+                            <option value="medical">Transporte médico</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="passengers">Número de pasajeros</label>
+                        <input type="number" id="passengers" min="1" max="20" value="1">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="notes">Notas adicionales</label>
+                        <textarea id="notes" rows="3" placeholder="Especificaciones especiales, equipaje, etc."></textarea>
+                    </div>
+                    
+                    <button type="button" id="btnRequest">SOLICITAR TAXI VIP</button>
+                    
+                    <button type="button" class="whatsapp-btn" id="btnWhatsApp">
+                        <i class="fab fa-whatsapp"></i> Reservar por WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonios mejorados -->
+   
+    
+    <!-- Modal VIP -->
+    <div id="vipModal" class="modal">
+        <div class="modal-content">
+            <h3>¡Mejora a Servicio VIP!</h3>
+            <p>La sección VIP ofrece un servicio más rápido con autos de mejor calidad, choferes profesionales y atención personalizada, solo por un costo adicional de 200 CUP.</p>
+            <p>¿Deseas continuar con el servicio VIP?</p>
+            <div class="modal-buttons">
+                <button class="btn-yes" id="btnYes">Sí, quiero VIP</button>
+                <button class="btn-no" id="btnNo">No, continuar normal</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="logo" style="font-size: 2.5rem;">Royalty👑Taxi</div>
+            <p>Tu experiencia de transporte nunca más será la misma</p>
+            
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <p>© 2025 Royalty👑Taxi - Todos los derechos reservados</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
